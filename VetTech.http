@@ -1,6 +1,0 @@
-@VetTech_HostAddress = http://localhost:5170
-
-GET {{VetTech_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
