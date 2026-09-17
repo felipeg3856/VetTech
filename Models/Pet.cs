@@ -13,6 +13,8 @@ namespace VetTechApi.Models
 
         [JsonIgnore]
         public Tutor? Tutor { get; set; }
+
+        public ICollection<Consulta> Consultas { get; set; } = new List<Consulta>();
       
     }
 }

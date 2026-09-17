@@ -23,7 +23,7 @@ namespace VetTechApi.Controllers
             return await _context.Pets.ToListAsync();
         }
         [HttpPost]
-        public async Task<IActionResult> AddCurso(Pet pet)
+        public async Task<IActionResult> AddPet(Pet pet)
         {
             _context.Pets.Add(pet);
             await _context.SaveChangesAsync();

@@ -7,6 +7,6 @@ namespace VetTechApi.Models
         public string Nome { get; set; }
         public string Telefone { get; set; }
 
-        public ICollection<Pet> Pets { get; set; }
+        public ICollection<Pet> Pets { get; set; } = new List<Pet>();
     }
 }
